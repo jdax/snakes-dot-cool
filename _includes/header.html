@@ -1,0 +1,21 @@
+<div class="pure-g">
+    <div class="pure-u-1">
+        <header class="header">
+            <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+        </header>
+    </div>
+</div>
+<div class="pure-g nav">
+    <div class="pure-u-1">
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                {% for page in site.pages %} {% if page.title %}
+                <li class="pure-menu-item"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %} {% endfor %}
+                <li class="pure-menu-item"><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
