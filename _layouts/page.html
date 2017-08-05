@@ -2,6 +2,11 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h1 class="header">{{ page.title }}</h1>
+{% if page.title != "About" %}
+    {% include mini-nav.html %}
+{% endif %}
 
-{{ content }}
+<div class="blog-body">
+    {{ content }}
+</div>

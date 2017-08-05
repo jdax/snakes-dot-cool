@@ -17,7 +17,7 @@ title: Snakes Dot Cool
 email: dax@dax.codes
 description: > # this means to ignore newlines until "baseurl:"
   All the super cool information you need to know to keep and care for pet snakes such as the ball python or the brazilian rainbow boa. :snek:
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://snakes.cool" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DaxAeterna
 github_username:  jdax
